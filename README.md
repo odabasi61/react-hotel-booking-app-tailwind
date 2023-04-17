@@ -3,3 +3,4 @@ This is a sample project from a youtube channel. I worked on this project to dev
 - Tailwind for styling
 - React-router-dom
 - React-icons
+- React-date-range
