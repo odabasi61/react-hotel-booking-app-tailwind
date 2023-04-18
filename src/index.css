@@ -27,3 +27,9 @@
 /* .optionCounterButton:disabled {
   cursor: not-allowed;
 } */
+
+.fListItem {
+  margin-bottom: 10px;
+  color: #003580;
+  cursor: pointer;
+}

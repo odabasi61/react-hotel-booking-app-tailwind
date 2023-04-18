@@ -1,14 +1,13 @@
-
 const Navbar = () => {
   return (
-    <div className="h-[50px] bg-[#003580] flex justify-center">
+    <div className="h-[50px] px-4 lg:px-0 bg-[#003580] flex justify-center">
       <div className="w-full max-w-[1024px] text-white flex items-center justify-between">
         <span className="font-medium">Wisebooking</span>
         <div className="flex gap-2">
-          <button className="px-2 bg-white text-[#003580]">
+          <button className="px-2 bg-white text-[#003580] hover:bg-[#003580] hover:text-white duration-300 border border-white">
             Register
           </button>
-          <button className="px-2 bg-white text-[#003580]">
+          <button className="px-2 bg-white text-[#003580] hover:bg-[#003580] hover:text-white duration-300 border border-white">
             Login
           </button>
         </div>
