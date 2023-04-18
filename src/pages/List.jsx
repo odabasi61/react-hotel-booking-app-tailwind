@@ -24,7 +24,7 @@ const List = () => {
               <label>Destination</label>
               <input type="text" placeholder={destination} />
             </div>
-            <div className="lsItem">
+            <div className="listItem">
               <label>Check-in Date</label>
               <span onClick={() => setOpenDate(!openDate)}>{`${format(
                 date[0].startDate,

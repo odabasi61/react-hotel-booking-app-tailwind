@@ -114,9 +114,10 @@ const Header = ({ type }) => {
                 {openDate && (
                   <DateRange
                     editableDateInputs={true}
-                    onChange={(item) => setDate([item.selection])}
                     moveRangeOnFirstSelection={false}
                     ranges={date}
+                    minDate={new Date()}
+                    onChange={(item) => setDate([item.selection])}
                     className="date absolute top-[70px] md:top-[40px] z-20"
                   />
                 )}
