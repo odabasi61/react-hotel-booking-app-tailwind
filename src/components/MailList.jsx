@@ -15,7 +15,7 @@ const MailList = () => {
           placeholder="Your Email"
           className="w-[300px] h-[30px] p-2 border-none rounded-md outline-none"
         />
-        <button className="py-1 px-3 bg-[#0071c2] text-white font-normal rounded-md">
+        <button className="py-1 px-3 font-semibold bg-[#0071c2] text-white border border-1 border-[#0071c2] hover:bg-white hover:text-[#0071c2] duration-300 rounded-md">
           Subscribe
         </button>
       </div>
