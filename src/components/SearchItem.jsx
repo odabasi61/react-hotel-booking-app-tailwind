@@ -39,7 +39,7 @@ const SearchItem = () => {
           <span className="siTaxOp text-sm text-gray-500">
             Includes taxes and fees
           </span>
-          <button className="siCheckButton bg-[#0071c2] text-white font-bold py-2 p-1 rounded-lg">
+          <button className="siCheckButton bg-[#0071c2] text-white hover:text-[#0071c2] hover:bg-white duration-300 border border-[#0071c2] font-bold py-2 p-1 rounded-lg">
             See availability
           </button>
         </div>

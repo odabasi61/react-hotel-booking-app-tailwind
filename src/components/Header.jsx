@@ -58,23 +58,23 @@ const Header = ({ type }) => {
         }
       >
         <div className="header-list px-4 lg:px-0 flex flex-wrap justify-center md:justify-normal gap-10 mb-12">
-          <div className="headerlist-item active flex gap-2 items-center">
+          <div className="headerlist-item flex gap-2 items-center border border-1 border-white p-2 rounded-2xl hover:bg-white hover:text-[#003580] duration-300 cursor-pointer">
             <MdHotel size={20} />
             <span>Stays</span>
           </div>
-          <div className="headerlist-item flex gap-2 items-center">
+          <div className="headerlist-item flex gap-2 items-center border border-1 border-white p-2 rounded-2xl hover:bg-white hover:text-[#003580] duration-300 cursor-pointer">
             <GiCommercialAirplane size={20} />
             <span>Flights</span>
           </div>
-          <div className="headerlist-item flex gap-2 items-center">
+          <div className="headerlist-item flex gap-2 items-center border border-1 border-white p-2 rounded-2xl hover:bg-white hover:text-[#003580] duration-300 cursor-pointer">
             <BsFillCarFrontFill size={20} />
             <span>Car Rentals</span>
           </div>
-          <div className="headerlist-item flex gap-2 items-center">
+          <div className="headerlist-item flex gap-2 items-center border border-1 border-white p-2 rounded-2xl hover:bg-white hover:text-[#003580] duration-300 cursor-pointer">
             <BsActivity size={20} />
             <span>Attractions</span>
           </div>
-          <div className="headerlist-item flex gap-2 items-center">
+          <div className="headerlist-item flex gap-2 items-center border border-1 border-white p-2 rounded-2xl hover:bg-white hover:text-[#003580] duration-300 cursor-pointer">
             <BsTaxiFrontFill size={20} />
             <span>Airport Taxis</span>
           </div>

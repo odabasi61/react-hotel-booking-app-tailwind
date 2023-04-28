@@ -15,9 +15,9 @@ const FeaturedProperties = () => {
         <span className="fpCity font-normal ps-2">Madrid</span>
         <span className="fpPrice font-medium ps-2">Starting from $120</span>
         <div className="fpRating ps-2 pb-2">
-          <button className="text-white bg-[#003580] px-1 font-bold">
+          <span className="text-white bg-[#003580] px-1 font-bold">
             8.8
-          </button>
+          </span>
           <span className="text-md"> Excellent · 1483 rates</span>
         </div>
       </div>
@@ -34,9 +34,9 @@ const FeaturedProperties = () => {
         <span className="fpCity font-normal ps-2">Austin</span>
         <span className="fpPrice font-medium ps-2">Starting from $140</span>
         <div className="fpRating ps-2  pb-2">
-          <button className="text-white bg-[#003580] px-1 font-bold">
+          <span className="text-white bg-[#003580] px-1 font-bold">
             9.2
-          </button>
+          </span>
           <span className="text-md"> Exceptional · 2214 rates</span>
         </div>
       </div>
@@ -53,9 +53,9 @@ const FeaturedProperties = () => {
         <span className="fpCity font-normal ps-2">Lisbon</span>
         <span className="fpPrice font-medium ps-2">Starting from $99</span>
         <div className="fpRating ps-2  pb-2">
-          <button className="text-white bg-[#003580] px-1 font-bold">
+          <span className="text-white bg-[#003580] px-1 font-bold">
             8.7
-          </button>
+          </span>
           <span className="text-md"> Excellent · 1066 rates</span>
         </div>
       </div>
@@ -72,9 +72,9 @@ const FeaturedProperties = () => {
         <span className="fpCity font-normal ps-2">Berlin</span>
         <span className="fpPrice font-medium ps-2">Starting from $105</span>
         <div className="fpRating ps-2  pb-2">
-          <button className="text-white bg-[#003580] px-1 font-bold">
+          <span className="text-white bg-[#003580] px-1 font-bold">
             8.9
-          </button>
+          </span>
           <span className="text-md"> Excellent · 969 rates</span>
         </div>
       </div>
